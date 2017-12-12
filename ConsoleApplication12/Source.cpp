@@ -90,6 +90,50 @@ void main()
 				god = 20 * 100 + god;
 			}
 			cout << "Вы родились: " << den << "/" << mes << "/" << god << endl;
+			if ((den >= 20 && mes == 3) || (den <= 21 && mes == 4))
+			{
+				cout << "Вы Овен \n";
+			}
+			else if((den >= 20 && mes == 4) || (den <= 21 && mes == 5))
+			{
+				cout << "Вы Телец \n";
+			}
+			else if ((den >= 22 && mes == 5) || (den <= 21 && mes == 6))
+			{
+				cout << "Вы Близнецы \n";
+			}
+			else if ((den >= 22 && mes == 6) || (den <= 23 && mes == 7))
+			{
+				cout << "Вы Рак \n";
+			}
+			else if ((den >= 24 && mes == 7) || (den <= 23 && mes == 8))
+			{
+				cout << "Вы Лев \n";
+			}
+			else if ((den >= 24 && mes == 8) || (den <= 23 && mes == 9))
+			{
+				cout << "Вы Дева \n";
+			}
+			else if ((den >= 24 && mes == 9) || (den <= 23 && mes == 10))
+			{
+				cout << "Вы Весы \n";
+			}
+			else if ((den >= 24 && mes == 10) || (den <= 21 && mes == 11))
+			{
+				cout << "Вы Скорпион \n";
+			}
+			else if ((den >= 22 && mes == 12) || (den <= 20 && mes == 1))
+			{
+				cout << "Вы Козерог \n";
+			}
+			else if ((den >= 21 && mes == 1) || (den <= 19 && mes == 2))
+			{
+				cout << "Вы Водолей \n";
+			}
+			else if ((den >= 20 && mes == 2) || (den <= 20 && mes == 3))
+			{
+				cout << "Вы Рыбы \n";
+			}
 		}
 	}
 	
